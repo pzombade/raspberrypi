@@ -6,8 +6,23 @@ app.listen(port ,function(){
 });
 //comment
 
+
+function updateResponse(speech){
+	return {
+        "speech": speech,
+        "displayText": speech,
+        // "data": data,
+        // "contextOut": [],
+        "source": "apiai-weather-webhook-sample"
+    };
+}
+
 app.post('/webhook', function (req, res) {
-  res.end("server.js Post Hellow from webhook");
+  
+  console.log("req = "+req.responseId);
+  var result = updateResponse("Hello");  
+  res.end("{'fulfillmentText':'Hello fulfillmentText'}");
+  //res.end("server.js Post Hellow from webhook ");
 });
 
 app.get('/webhook', function (req, res) {
@@ -18,3 +33,5 @@ app.get('/', function (req, res) {
 	 console.log("Getting default content...");
   res.end("server.js Get default");
 });
+
+
