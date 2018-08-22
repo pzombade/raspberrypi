@@ -198,3 +198,103 @@
 2018-08-22T11:39:37.123202+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=raspberrypiwebhook.herokuapp.com request_id=64fc4937-197d-4e82-9c57-d60dd85da427 fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
 2018-08-22T11:39:38.645358+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=raspberrypiwebhook.herokuapp.com request_id=22f37793-1698-4a70-8e02-46f7febc481b fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
 2018-08-22T11:58:47.000000+00:00 app[api]: Build started by user prashantzombade@gmail.com
+2018-08-22T11:18:41.009245+00:00 app[web.1]: 
+2018-08-22T11:18:41.028722+00:00 app[web.1]: npm ERR! Linux 4.4.0-1027-aws
+2018-08-22T11:18:41.029146+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2018-08-22T11:18:41.033622+00:00 app[web.1]: npm ERR! node v6.0.0
+2018-08-22T11:18:41.034559+00:00 app[web.1]: npm ERR! npm  v3.8.6
+2018-08-22T11:18:41.034812+00:00 app[web.1]: npm ERR! file sh
+2018-08-22T11:18:41.035011+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2018-08-22T11:18:41.035226+00:00 app[web.1]: npm ERR! errno ENOENT
+2018-08-22T11:18:41.035452+00:00 app[web.1]: npm ERR! syscall spawn
+2018-08-22T11:18:41.035666+00:00 app[web.1]: npm ERR! dialogflowFirebaseFulfillment@0.0.1 start: `firebase serve --only functions:dialogflowFirebaseFulfillment`
+2018-08-22T11:18:41.035804+00:00 app[web.1]: npm ERR! spawn ENOENT
+2018-08-22T11:18:41.036012+00:00 app[web.1]: npm ERR!
+2018-08-22T11:18:41.036185+00:00 app[web.1]: npm ERR! Failed at the dialogflowFirebaseFulfillment@0.0.1 start script 'firebase serve --only functions:dialogflowFirebaseFulfillment'.
+2018-08-22T11:18:41.036359+00:00 app[web.1]: npm ERR! Make sure you have the latest version of node.js and npm installed.
+2018-08-22T11:18:41.036534+00:00 app[web.1]: npm ERR! If you do, this is most likely a problem with the dialogflowFirebaseFulfillment package,
+2018-08-22T11:18:41.036709+00:00 app[web.1]: npm ERR! not with npm itself.
+2018-08-22T11:18:41.036882+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2018-08-22T11:18:41.037215+00:00 app[web.1]: npm ERR! You can get information on how to open an issue for this project with:
+2018-08-22T11:18:41.037057+00:00 app[web.1]: npm ERR!     firebase serve --only functions:dialogflowFirebaseFulfillment
+2018-08-22T11:18:41.037417+00:00 app[web.1]: npm ERR!     npm bugs dialogflowFirebaseFulfillment
+2018-08-22T11:18:41.037580+00:00 app[web.1]: npm ERR! Or if that isn't available, you can get their info via:
+2018-08-22T11:18:41.037756+00:00 app[web.1]: npm ERR!     npm owner ls dialogflowFirebaseFulfillment
+2018-08-22T11:18:41.037924+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2018-08-22T11:18:41.047345+00:00 app[web.1]: 
+2018-08-22T11:18:41.047642+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2018-08-22T11:18:41.047776+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2018-08-22T11:34:32.000000+00:00 app[api]: Build started by user prashantzombade@gmail.com
+2018-08-22T11:35:18.957031+00:00 app[api]: Deploy 30f15d45 by user prashantzombade@gmail.com
+2018-08-22T11:35:20.426370+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-22T11:35:18.957031+00:00 app[api]: Release v5 created by user prashantzombade@gmail.com
+2018-08-22T11:35:19.000000+00:00 app[api]: Build succeeded
+2018-08-22T11:35:23.259442+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-22T11:35:26.074147+00:00 app[web.1]: 
+2018-08-22T11:35:26.074163+00:00 app[web.1]: > dialogflowFirebaseFulfillment@0.0.1 start /app
+2018-08-22T11:35:26.074165+00:00 app[web.1]: > node server.js
+2018-08-22T11:35:26.074166+00:00 app[web.1]: 
+2018-08-22T11:36:23.726094+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-22T11:36:23.728190+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-22T11:36:23.616113+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-22T11:36:23.616113+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-22T11:36:23.708439+00:00 heroku[web.1]: Process exited with status 137
+2018-08-22T11:36:26.797224+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-22T11:36:30.091552+00:00 app[web.1]: > dialogflowFirebaseFulfillment@0.0.1 start /app
+2018-08-22T11:36:30.091494+00:00 app[web.1]: 
+2018-08-22T11:36:30.091553+00:00 app[web.1]: > node server.js
+2018-08-22T11:36:30.091555+00:00 app[web.1]: 
+2018-08-22T11:37:27.067865+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-22T11:37:27.068146+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-22T11:37:27.158349+00:00 heroku[web.1]: Process exited with status 137
+2018-08-22T11:37:27.176183+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-22T11:37:28.934270+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=raspberrypiwebhook.herokuapp.com request_id=3ddcd2bd-33e2-4346-ab59-c15e4ecb5e07 fwd="146.112.237.199" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:37:29.382371+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/webhookx" host=raspberrypiwebhook.herokuapp.com request_id=2d00eb77-325f-4d53-8b22-5d6baa567686 fwd="146.112.237.199" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:37:29.225755+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=raspberrypiwebhook.herokuapp.com request_id=b3304f44-d285-4b9f-9ce6-630677f56b63 fwd="146.112.237.199" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:37:30.157730+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/webhook" host=raspberrypiwebhook.herokuapp.com request_id=bd3becd9-256b-407e-9413-d37ed0aa1399 fwd="146.112.237.199" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:37:31.042079+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=raspberrypiwebhook.herokuapp.com request_id=c57f9c1f-de3c-4eae-ab34-f256e2c79c4b fwd="146.112.237.199" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:39:30.544885+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/webhook" host=raspberrypiwebhook.herokuapp.com request_id=b9c555cd-4b3f-49df-a12a-ded19c2986db fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:39:32.080430+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=raspberrypiwebhook.herokuapp.com request_id=844fcf1e-7e66-4813-98c0-277d03dcd221 fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:39:37.123202+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=raspberrypiwebhook.herokuapp.com request_id=64fc4937-197d-4e82-9c57-d60dd85da427 fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:39:38.645358+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=raspberrypiwebhook.herokuapp.com request_id=22f37793-1698-4a70-8e02-46f7febc481b fwd="146.112.237.204" dyno= connect= service= status=503 bytes= protocol=https
+2018-08-22T11:58:47.000000+00:00 app[api]: Build started by user prashantzombade@gmail.com
+2018-08-22T11:59:40.327960+00:00 app[api]: Release v6 created by user prashantzombade@gmail.com
+2018-08-22T11:59:40.327960+00:00 app[api]: Deploy f12ef1a9 by user prashantzombade@gmail.com
+2018-08-22T11:59:40.000000+00:00 app[api]: Build succeeded
+2018-08-22T11:59:41.656113+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-22T11:59:43.547155+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-22T11:59:45.479700+00:00 app[web.1]: 
+2018-08-22T11:59:45.479726+00:00 app[web.1]: > dialogflowFirebaseFulfillment@0.0.1 start /app
+2018-08-22T11:59:45.479728+00:00 app[web.1]: > node server.js
+2018-08-22T11:59:45.479729+00:00 app[web.1]: 
+2018-08-22T12:00:44.050365+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-22T12:00:44.050462+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-22T12:00:44.135533+00:00 heroku[web.1]: Process exited with status 22
+2018-08-22T12:00:44.070591+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2018-08-22T12:00:44.153721+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-22T12:00:44.155898+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-22T12:00:46.989259+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-22T12:00:50.016737+00:00 app[web.1]: > node server.js
+2018-08-22T12:00:50.016720+00:00 app[web.1]: 
+2018-08-22T12:00:50.016738+00:00 app[web.1]: 
+2018-08-22T12:00:50.016736+00:00 app[web.1]: > dialogflowFirebaseFulfillment@0.0.1 start /app
+2018-08-22T12:01:47.594202+00:00 heroku[web.1]: State changed from starting to crashed
+2018-08-22T12:01:47.438454+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-22T12:01:47.438454+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-22T12:01:47.577918+00:00 heroku[web.1]: Process exited with status 137
+2018-08-22T12:04:00.000000+00:00 app[api]: Build started by user prashantzombade@gmail.com
+2018-08-22T12:04:44.679030+00:00 app[api]: Deploy e2edbc85 by user prashantzombade@gmail.com
+2018-08-22T12:04:44.679030+00:00 app[api]: Release v7 created by user prashantzombade@gmail.com
+2018-08-22T12:04:45.000000+00:00 app[api]: Build succeeded
+2018-08-22T12:04:45.867033+00:00 heroku[web.1]: State changed from crashed to starting
+2018-08-22T12:04:47.824982+00:00 heroku[web.1]: Starting process with command `npm start`
+2018-08-22T12:04:50.020949+00:00 app[web.1]: 
+2018-08-22T12:04:50.020977+00:00 app[web.1]: > dialogflowFirebaseFulfillment@0.0.1 start /app
+2018-08-22T12:04:50.020978+00:00 app[web.1]: > node server.js
+2018-08-22T12:04:50.020980+00:00 app[web.1]: 
+2018-08-22T12:04:50.291730+00:00 app[web.1]: server.js up and running on port 25450
+2018-08-22T12:05:48.297641+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2018-08-22T12:05:48.297720+00:00 heroku[web.1]: Stopping process with SIGKILL
+2018-08-22T12:05:48.359842+00:00 heroku[web.1]: Process exited with status 22
+2018-08-22T12:05:48.315789+00:00 app[web.1]: Error waiting for process to terminate: No child processes
+2018-08-22T12:05:48.381209+00:00 heroku[web.1]: State changed from starting to crashed
