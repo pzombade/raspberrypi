@@ -3,11 +3,11 @@ var app = express();
 
 
 app.post('/webhook', function (req, res) {
-  res.end("index.js Post Hellow from webhook");
+  res.end("server.js Post Hellow from webhook");
 });
 
 app.get('/webhook', function (req, res) {
-  res.end("index.js Get Hellow from webhook");
+  res.end("server.js Get Hellow from webhook");
 });
 
 var server = app.listen(8085, function () {
